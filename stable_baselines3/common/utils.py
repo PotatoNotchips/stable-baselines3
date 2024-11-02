@@ -8,10 +8,10 @@ from itertools import zip_longest
 from typing import Dict, Iterable, List, Optional, Tuple, Union
 
 import cloudpickle
-import gymnasium as gym
+import gym
 import numpy as np
 import torch as th
-from gymnasium import spaces
+from gym import spaces
 
 import stable_baselines3 as sb3
 
